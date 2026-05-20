@@ -1,0 +1,33 @@
+[package]
+name = "your-project-name"  # TODO: Change this to your project name
+version = "0.1.0"
+edition = "2021"
+description = "TODO: Add your project description"
+license = "Apache-2.0"  # TODO: Choose your license
+repository = "https://github.com/your-org/your-project"  # TODO: Update repository URL
+documentation = "https://docs.rs/your-project-name"  # TODO: Update documentation URL
+homepage = "https://github.com/your-org/your-project"  # TODO: Update homepage URL
+keywords = ["keyword1", "keyword2", "keyword3"]  # TODO: Add relevant keywords
+categories = ["category1", "category2"]  # TODO: Add relevant categories
+authors = ["Your Name <your.email@example.com>"]  # TODO: Update author info
+readme = "README.md"
+exclude = []  # TODO: Add patterns for files to exclude from crate
+
+[features]
+default = []
+# TODO: Define your feature flags here
+
+[dependencies]
+# TODO: Add your dependencies here
+# Example:
+# serde = { version = "1.0", features = ["derive"] }
+# tokio = { version = "1", features = ["full"] }
+
+[dev-dependencies]
+# TODO: Add your dev dependencies here
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+

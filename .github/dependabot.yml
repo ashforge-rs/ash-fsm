@@ -1,0 +1,13 @@
+# Dependabot configuration for automatic dependency updates
+# Customize the schedule and settings as needed
+
+version: 2
+updates:
+  - package-ecosystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    groups:
+      dependencies:
+        patterns:
+          - "*"

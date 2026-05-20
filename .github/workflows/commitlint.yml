@@ -1,0 +1,20 @@
+# TODO: Configure commit linting if needed
+# This is a placeholder - customize for your project
+
+name: Commitlint
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Check commit messages
+        run: |
+          echo "TODO: Add commitlint check"
