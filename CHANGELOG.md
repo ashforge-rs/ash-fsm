@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] — 2026-11-14
+
+### Changed
+
+- Dependency updates: `thiserror` 2.0.21, `serde` 1.0.229, `serde_json` 1.0.154,
+  `tokio` 1.54.1.
+
 ## [0.1.0] — 2026-10-03
 
 First release.
